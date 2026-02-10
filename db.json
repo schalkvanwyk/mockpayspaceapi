@@ -1,95 +1,95 @@
 {
   "connect/token": {
-  "access_token": "string",
-  "expires_in": 3600,
-  "token_type": "Bearer",
-  "group_companies": [
-    {
-      "group_id": 0,
-      "group_description": "string",
-      "companies": [
-        {
-          "company_id": 0,
-          "company_name": "string",
-          "company_code": "string"
-        },
-        {
-          "company_id": 0,
-          "company_name": "string",
-          "company_code": "string"
-        }
-      ]
-    }
-  ]
+    "access_token": "string",
+    "expires_in": 3600,
+    "token_type": "Bearer",
+    "group_companies": [
+      {
+        "group_id": 0,
+        "group_description": "string",
+        "companies": [
+          {
+            "company_id": 0,
+            "company_name": "string",
+            "company_code": "string"
+          },
+          {
+            "company_id": 0,
+            "company_name": "string",
+            "company_code": "string"
+          }
+        ]
+      }
+    ]
   },
   "odata/v2.0/:company-id/Employee": {
     "@odata.context": "https://api.payspace.com/odata/v2.0/{{company-id}}/$metadata#Employee",
     "@odata.count": 1,
     "value": [
-        {
-				"EmployeeId": 0,				            // Type="Int64"
-                "InitiateWorkFlow": false,                  // Type="Boolean" - optional values used with POST and Patch to initiate the employee workflow
-			    "EmployeeNumber": "string",		       		// Type="String"
-				"Title": "string",  			        	// Type="String"
-				"FirstName": "string",			        	// Type="String"
-				"LastName": "string",			        	// Type="String"
-				"PreferredName": "string",		    		// Type="String"
-				"MaidenName": "string",			        	// Type="String"
-				"MiddleName": "string",			        	// Type="String"
-				"Initials": "string",		        		// Type="String"
-				"Email": "string",			            	// Type="String"
-				"Birthday": "2019-05-03T08:57:54.266Z",		// Type="DateTime"
-				"HomeNumber": "string",			        	// Type="String"
-				"WorkNumber": "string",			        	// Type="String"
-				"CellNumber": "string",			        	// Type="String"
-				"WorkExtension": "string",		    		// Type="String"
-				"Language": "string",				        // Type="String"
-				"Gender": "Male",		  		            // Type="String"
-				"MaritalStatus": "string",		    		// Type="String"
-				"Race": "string",				            // Type="String"
-				"Nationality": "string",			    	// Type="String"
-				"Citizenship": "string",		    		// Type="String"
-				"DisabledType": "string",				    // Type="String"
-				"ForeignNational": true,				    // Type="Boolean"
-				"DateCreated": "2019-05-03T08:57:54.266Z",	// Type="DateTime"
-				"EmergencyContactName": "string",			// Type="String"
-				"EmergencyContactNumber": "string",			// Type="String"
-				"EmergencyContactAddress": "string",		// Type="String"
-				"IsRetired": true,			            	// Type="Boolean"
-				"CustomFieldValue": "string",				// Type="String"
-				"CustomFieldValue2": "string",				// Type="String"
-				"UifExemption": "string",					// Type="String"
-				"SdlExemption": "string",					// Type="String"
-				"EtiExempt": false,							// Type="Boolean"
-                "ImageDownloadUrl": "string",                // Type="String"
-				"CustomFields": [		
-					{			
-					  "Code": "string",				        // Type="String"
-					  "Label": "string",			        // Type="String"
-					  "Value": "string"			        	// Type="String"
-					}	
-				],        
-                "Address": [
-                    {
-                        "AddressId": 0,					// Type="Int64"
-                        "AddressType": "string",		// Type="String"
-                        "EmployeeNumber": "string",		// Type="String"
-                        "AddressLine1": "string",		// Type="String"
-                        "AddressLine2": "string",		// Type="String"
-                        "AddressLine3": "string",		// Type="String"
-                        "AddressCode": "string",		// Type="String"
-                        "AddressCountry": "string",		// Type="String"
-                        "Province": "string",			// Type="String"
-                        "UnitNumber": "string",			// Type="String"
-                        "Complex": "string",			// Type="String"
-                        "StreetNumber": "string",		// Type="String"
-                        "SameAsPhysical": true,			// Type="Boolean"
-                        "IsCareofAddress": true,		// Type="Boolean"
-                        "CareOfIntermediary": "string",	// Type="String"
-                        "SpecialServices": "string"		// Type="String"
-                    }
-                ]   
-        }
+      {
+        "EmployeeId": 0,
+        "InitiateWorkFlow": false,
+        "EmployeeNumber": "string",
+        "Title": "string",
+        "FirstName": "string",
+        "LastName": "string",
+        "PreferredName": "string",
+        "MaidenName": "string",
+        "MiddleName": "string",
+        "Initials": "string",
+        "Email": "string",
+        "Birthday": "2019-05-03T08:57:54.266Z",
+        "HomeNumber": "string",
+        "WorkNumber": "string",
+        "CellNumber": "string",
+        "WorkExtension": "string",
+        "Language": "string",
+        "Gender": "Male",
+        "MaritalStatus": "string",
+        "Race": "string",
+        "Nationality": "string",
+        "Citizenship": "string",
+        "DisabledType": "string",
+        "ForeignNational": true,
+        "DateCreated": "2019-05-03T08:57:54.266Z",
+        "EmergencyContactName": "string",
+        "EmergencyContactNumber": "string",
+        "EmergencyContactAddress": "string",
+        "IsRetired": true,
+        "CustomFieldValue": "string",
+        "CustomFieldValue2": "string",
+        "UifExemption": "string",
+        "SdlExemption": "string",
+        "EtiExempt": false,
+        "ImageDownloadUrl": "string",
+        "CustomFields": [
+          {
+            "Code": "string",
+            "Label": "string",
+            "Value": "string"
+          }
+        ],
+        "Address": [
+          {
+            "AddressId": 0,
+            "AddressType": "string",
+            "EmployeeNumber": "string",
+            "AddressLine1": "string",
+            "AddressLine2": "string",
+            "AddressLine3": "string",
+            "AddressCode": "string",
+            "AddressCountry": "string",
+            "Province": "string",
+            "UnitNumber": "string",
+            "Complex": "string",
+            "StreetNumber": "string",
+            "SameAsPhysical": true,
+            "IsCareofAddress": true,
+            "CareOfIntermediary": "string",
+            "SpecialServices": "string"
+          }
+        ]
+      }
     ]
-}
+  }
 }

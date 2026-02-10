@@ -1,6 +1,5 @@
 {
-  "connect": {
-    "token": {
+  "connect/token": {
   "access_token": "string",
   "expires_in": 3600,
   "token_type": "Bearer",
@@ -22,6 +21,5 @@
       ]
     }
   ]
-}
   }
 }
